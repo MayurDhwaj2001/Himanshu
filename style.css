@@ -1603,3 +1603,55 @@ img {
     right: 1.25rem;
   }
 }
+.hidden {
+  visibility: hidden;
+}
+
+@media only screen and (max-width: 1000px) {
+  .projects_container2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+  }
+  .services__content2 {
+    width: 90vw;
+  }
+  .contact__data {
+    background-color: rgba(255, 228, 196, 0);
+    border: none;
+  }
+  .contact__description-1 {
+    visibility: hidden;
+  }
+  .hidden {
+    visibility: visible;
+  }
+  .hide {
+    visibility: hidden;
+  }
+  .contact__data {
+    height: 0px;
+    padding: 0px;
+  }
+  .contact {
+    padding: 0px;
+  }
+  .block {
+    display: block;
+    padding-top: 30px;
+  }
+
+  .contact__mail {
+    margin-bottom: 30px;
+  }
+  .about__shadow {
+    width: 150%;
+    height: 140%;
+  }
+  .about__description::after {
+    visibility: hidden;
+  }
+  .mleft {
+    margin-left: 0px;
+  }
+}
